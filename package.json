@@ -1,0 +1,9 @@
+{
+  "name": "telegraf-session-sqlite",
+  "version": "1.0.0",
+  "description": "sqlite session middleware for telegraf framework",
+  "main": "index.js",
+  "author": "Maksim Podvarkov <i.snova.bebebe@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
