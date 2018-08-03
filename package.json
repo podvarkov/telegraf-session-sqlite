@@ -6,7 +6,5 @@
   "author": "Maksim Podvarkov <i.snova.bebebe@gmail.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "sqlite3": "^4.0.2"
-  }
+  "dependencies": {}
 }
