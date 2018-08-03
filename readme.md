@@ -32,7 +32,7 @@ bot.use(session(options))
 ...
 ```
 
-####options object description
+Options object description
 
 | key        | description                                      | default            |
 |------------|--------------------------------------------------|--------------------|
