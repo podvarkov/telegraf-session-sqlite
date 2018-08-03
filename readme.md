@@ -1,13 +1,12 @@
-#telegraf-session-sqlite 
-sqlite session middleware for telegraf framework
-
-####with npm/yarn
+telegraf-session-sqlite 
+`sqlite session middleware for telegraf framework`
+with npm/yarn
 ```
 npm install telegraf-session-sqlite
 yarn add telegraf-session-sqlite
 ```
 
-####Example:
+Example:
 ```
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database(PATH_TO_DATABASE);
@@ -28,6 +27,5 @@ bot.use(session(options))
 |------------|--------------------------------------------------|--------------------|
 | db         | sqlite3 instance                                 | none               |
 | table_name | database table name where session will be stored | 'telegraf_session' |
-|            |                                                  |                    |
 
  
