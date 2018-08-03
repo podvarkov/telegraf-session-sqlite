@@ -1,10 +1,20 @@
 telegraf-session-sqlite 
 `sqlite session middleware for telegraf framework`
 
-install with npm/yarn
+Install with npm/yarn
 ```
 npm install telegraf-session-sqlite
 yarn add telegraf-session-sqlite
+```
+Create table in your database
+
+```
+create table 'your_table_name'
+(
+  id      varchar(255)
+    primary key,
+  session varchar(255)
+);
 ```
 
 Example:
