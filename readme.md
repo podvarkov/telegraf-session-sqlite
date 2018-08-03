@@ -1,6 +1,7 @@
 telegraf-session-sqlite 
 `sqlite session middleware for telegraf framework`
-with npm/yarn
+
+install with npm/yarn
 ```
 npm install telegraf-session-sqlite
 yarn add telegraf-session-sqlite
