@@ -1,9 +1,12 @@
 {
   "name": "telegraf-session-sqlite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sqlite session middleware for telegraf framework",
   "main": "index.js",
   "author": "Maksim Podvarkov <i.snova.bebebe@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "sqlite3": "^4.0.2"
+  }
 }
